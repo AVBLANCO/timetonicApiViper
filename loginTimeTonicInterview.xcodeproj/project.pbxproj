@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8840E8582BC9E3A900323663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8572BC9E3A900323663 /* AppDelegate.swift */; };
+		8840E85A2BC9E3A900323663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8592BC9E3A900323663 /* SceneDelegate.swift */; };
+		8840E85C2BC9E3A900323663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E85B2BC9E3A900323663 /* ViewController.swift */; };
+		8840E85F2BC9E3A900323663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8840E85D2BC9E3A900323663 /* Main.storyboard */; };
+		8840E8612BC9E3AB00323663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840E8602BC9E3AB00323663 /* Assets.xcassets */; };
+		8840E8642BC9E3AB00323663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8840E8622BC9E3AB00323663 /* LaunchScreen.storyboard */; };
+		8840E86F2BC9E3AB00323663 /* loginTimeTonicInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E86E2BC9E3AB00323663 /* loginTimeTonicInterviewTests.swift */; };
+		8840E8792BC9E3AB00323663 /* loginTimeTonicInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8782BC9E3AB00323663 /* loginTimeTonicInterviewUITests.swift */; };
+		8840E87B2BC9E3AB00323663 /* loginTimeTonicInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E87A2BC9E3AB00323663 /* loginTimeTonicInterviewUITestsLaunchTests.swift */; };
+		8840E88A2BC9E91D00323663 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8882BC9E91D00323663 /* LoginPageViewController.swift */; };
+		8840E88B2BC9E91D00323663 /* LoginPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8840E8892BC9E91D00323663 /* LoginPageViewController.xib */; };
+		8840E88F2BCA06D900323663 /* LandingBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E88D2BCA06D900323663 /* LandingBookViewController.swift */; };
+		8840E8902BCA06D900323663 /* landingBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8840E88E2BCA06D900323663 /* landingBookViewController.xib */; };
+		8840E8932BCC2F6E00323663 /* LandingBookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8922BCC2F6E00323663 /* LandingBookPresenter.swift */; };
+		8840E8952BCC2F8B00323663 /* LandingBookInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8942BCC2F8B00323663 /* LandingBookInteractor.swift */; };
+		8840E8972BCC2F9600323663 /* LandingBookRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8962BCC2F9600323663 /* LandingBookRouter.swift */; };
+		8840E89A2BCC332300323663 /* Bookentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8992BCC332300323663 /* Bookentity.swift */; };
+		8840E89D2BCC505700323663 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E89C2BCC505700323663 /* UserEntity.swift */; };
+		8840E89F2BCC562500323663 /* LoginPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E89E2BCC562500323663 /* LoginPageInteractor.swift */; };
+		8840E8A12BCC565200323663 /* LoginPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8A02BCC565200323663 /* LoginPagePresenter.swift */; };
+		8840E8A32BCC567E00323663 /* LoginPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8A22BCC567E00323663 /* LoginPageRouter.swift */; };
+		8840E8A62BCC56D200323663 /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8A42BCC56D200323663 /* DetailBookViewController.swift */; };
+		8840E8A72BCC56D200323663 /* DetailBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8840E8A52BCC56D200323663 /* DetailBookViewController.xib */; };
+		8840E8A92BCC56E300323663 /* DetailBookInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8A82BCC56E300323663 /* DetailBookInteractor.swift */; };
+		8840E8AB2BCC56F100323663 /* DetailBookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8AA2BCC56F100323663 /* DetailBookPresenter.swift */; };
+		8840E8AD2BCC570100323663 /* DetailBookRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8AC2BCC570100323663 /* DetailBookRouter.swift */; };
+		8840E8B02BCC573600323663 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8AF2BCC573600323663 /* APIClient.swift */; };
+		8840E8B22BCC574B00323663 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8B12BCC574B00323663 /* KeyChainService.swift */; };
+		8840E8B42BCC903B00323663 /* LoginPageConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8B32BCC903B00323663 /* LoginPageConfigurator.swift */; };
+		8840E8B62BCC941100323663 /* LoginPageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8B52BCC941100323663 /* LoginPageManager.swift */; };
+		8840E8B82BCCBDFD00323663 /* LandingBookConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8B72BCCBDFD00323663 /* LandingBookConfiguration.swift */; };
+		8840E8BC2BCCFFC600323663 /* ListBooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8BA2BCCFFC600323663 /* ListBooksTableViewCell.swift */; };
+		8840E8BD2BCCFFC600323663 /* ListBooksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8840E8BB2BCCFFC600323663 /* ListBooksTableViewCell.xib */; };
+		8840E8BF2BCD022B00323663 /* LandingBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8BE2BCD022B00323663 /* LandingBookManager.swift */; };
+		8840E8C12BCD064E00323663 /* DetailBookConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8C02BCD064E00323663 /* DetailBookConfiguration.swift */; };
+		8840E8C32BCD069A00323663 /* DetailBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8C22BCD069A00323663 /* DetailBookManager.swift */; };
+		8840E8C62BCD750200323663 /* TokenCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8C52BCD750200323663 /* TokenCreator.swift */; };
+		8840E8C82BCD752500323663 /* TokenDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8C72BCD752500323663 /* TokenDelete.swift */; };
+		8840E8CA2BCD753E00323663 /* TokenReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8C92BCD753E00323663 /* TokenReader.swift */; };
+		8840E8CC2BCD756200323663 /* TokenUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E8CB2BCD756200323663 /* TokenUpdater.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8840E86B2BC9E3AB00323663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840E84C2BC9E3A900323663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840E8532BC9E3A900323663;
+			remoteInfo = loginTimeTonicInterview;
+		};
+		8840E8752BC9E3AB00323663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840E84C2BC9E3A900323663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840E8532BC9E3A900323663;
+			remoteInfo = loginTimeTonicInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8840E8542BC9E3A900323663 /* loginTimeTonicInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginTimeTonicInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E8572BC9E3A900323663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8840E8592BC9E3A900323663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8840E85B2BC9E3A900323663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8840E85E2BC9E3A900323663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8840E8602BC9E3AB00323663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8840E8632BC9E3AB00323663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8840E8652BC9E3AB00323663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8840E86A2BC9E3AB00323663 /* loginTimeTonicInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginTimeTonicInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E86E2BC9E3AB00323663 /* loginTimeTonicInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTimeTonicInterviewTests.swift; sourceTree = "<group>"; };
+		8840E8742BC9E3AB00323663 /* loginTimeTonicInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginTimeTonicInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E8782BC9E3AB00323663 /* loginTimeTonicInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTimeTonicInterviewUITests.swift; sourceTree = "<group>"; };
+		8840E87A2BC9E3AB00323663 /* loginTimeTonicInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTimeTonicInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8840E8882BC9E91D00323663 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		8840E8892BC9E91D00323663 /* LoginPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPageViewController.xib; sourceTree = "<group>"; };
+		8840E88D2BCA06D900323663 /* LandingBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookViewController.swift; sourceTree = "<group>"; };
+		8840E88E2BCA06D900323663 /* landingBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = landingBookViewController.xib; sourceTree = "<group>"; };
+		8840E8922BCC2F6E00323663 /* LandingBookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookPresenter.swift; sourceTree = "<group>"; };
+		8840E8942BCC2F8B00323663 /* LandingBookInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookInteractor.swift; sourceTree = "<group>"; };
+		8840E8962BCC2F9600323663 /* LandingBookRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookRouter.swift; sourceTree = "<group>"; };
+		8840E8992BCC332300323663 /* Bookentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookentity.swift; sourceTree = "<group>"; };
+		8840E89C2BCC505700323663 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		8840E89E2BCC562500323663 /* LoginPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageInteractor.swift; sourceTree = "<group>"; };
+		8840E8A02BCC565200323663 /* LoginPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPagePresenter.swift; sourceTree = "<group>"; };
+		8840E8A22BCC567E00323663 /* LoginPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageRouter.swift; sourceTree = "<group>"; };
+		8840E8A42BCC56D200323663 /* DetailBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
+		8840E8A52BCC56D200323663 /* DetailBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailBookViewController.xib; sourceTree = "<group>"; };
+		8840E8A82BCC56E300323663 /* DetailBookInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookInteractor.swift; sourceTree = "<group>"; };
+		8840E8AA2BCC56F100323663 /* DetailBookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookPresenter.swift; sourceTree = "<group>"; };
+		8840E8AC2BCC570100323663 /* DetailBookRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookRouter.swift; sourceTree = "<group>"; };
+		8840E8AF2BCC573600323663 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8840E8B12BCC574B00323663 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		8840E8B32BCC903B00323663 /* LoginPageConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageConfigurator.swift; sourceTree = "<group>"; };
+		8840E8B52BCC941100323663 /* LoginPageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageManager.swift; sourceTree = "<group>"; };
+		8840E8B72BCCBDFD00323663 /* LandingBookConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookConfiguration.swift; sourceTree = "<group>"; };
+		8840E8BA2BCCFFC600323663 /* ListBooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBooksTableViewCell.swift; sourceTree = "<group>"; };
+		8840E8BB2BCCFFC600323663 /* ListBooksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBooksTableViewCell.xib; sourceTree = "<group>"; };
+		8840E8BE2BCD022B00323663 /* LandingBookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingBookManager.swift; sourceTree = "<group>"; };
+		8840E8C02BCD064E00323663 /* DetailBookConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookConfiguration.swift; sourceTree = "<group>"; };
+		8840E8C22BCD069A00323663 /* DetailBookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookManager.swift; sourceTree = "<group>"; };
+		8840E8C52BCD750200323663 /* TokenCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCreator.swift; sourceTree = "<group>"; };
+		8840E8C72BCD752500323663 /* TokenDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDelete.swift; sourceTree = "<group>"; };
+		8840E8C92BCD753E00323663 /* TokenReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenReader.swift; sourceTree = "<group>"; };
+		8840E8CB2BCD756200323663 /* TokenUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenUpdater.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8840E8512BC9E3A900323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8672BC9E3AB00323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8712BC9E3AB00323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8840E84B2BC9E3A900323663 = {
+			isa = PBXGroup;
+			children = (
+				8840E8562BC9E3A900323663 /* loginTimeTonicInterview */,
+				8840E86D2BC9E3AB00323663 /* loginTimeTonicInterviewTests */,
+				8840E8772BC9E3AB00323663 /* loginTimeTonicInterviewUITests */,
+				8840E8552BC9E3A900323663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8840E8552BC9E3A900323663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8542BC9E3A900323663 /* loginTimeTonicInterview.app */,
+				8840E86A2BC9E3AB00323663 /* loginTimeTonicInterviewTests.xctest */,
+				8840E8742BC9E3AB00323663 /* loginTimeTonicInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8840E8562BC9E3A900323663 /* loginTimeTonicInterview */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8AE2BCC571E00323663 /* Services */,
+				8840E8912BCC2CBD00323663 /* DetailBook */,
+				8840E88C2BCA06AA00323663 /* LandingViewBooks */,
+				8840E8872BC9E90200323663 /* LoginPage */,
+				8840E8572BC9E3A900323663 /* AppDelegate.swift */,
+				8840E8592BC9E3A900323663 /* SceneDelegate.swift */,
+				8840E85B2BC9E3A900323663 /* ViewController.swift */,
+				8840E85D2BC9E3A900323663 /* Main.storyboard */,
+				8840E8602BC9E3AB00323663 /* Assets.xcassets */,
+				8840E8622BC9E3AB00323663 /* LaunchScreen.storyboard */,
+				8840E8652BC9E3AB00323663 /* Info.plist */,
+			);
+			path = loginTimeTonicInterview;
+			sourceTree = "<group>";
+		};
+		8840E86D2BC9E3AB00323663 /* loginTimeTonicInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8840E86E2BC9E3AB00323663 /* loginTimeTonicInterviewTests.swift */,
+			);
+			path = loginTimeTonicInterviewTests;
+			sourceTree = "<group>";
+		};
+		8840E8772BC9E3AB00323663 /* loginTimeTonicInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8782BC9E3AB00323663 /* loginTimeTonicInterviewUITests.swift */,
+				8840E87A2BC9E3AB00323663 /* loginTimeTonicInterviewUITestsLaunchTests.swift */,
+			);
+			path = loginTimeTonicInterviewUITests;
+			sourceTree = "<group>";
+		};
+		8840E8872BC9E90200323663 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				8840E89B2BCC503900323663 /* Entity */,
+				8840E8882BC9E91D00323663 /* LoginPageViewController.swift */,
+				8840E8892BC9E91D00323663 /* LoginPageViewController.xib */,
+				8840E89E2BCC562500323663 /* LoginPageInteractor.swift */,
+				8840E8A02BCC565200323663 /* LoginPagePresenter.swift */,
+				8840E8A22BCC567E00323663 /* LoginPageRouter.swift */,
+				8840E8B32BCC903B00323663 /* LoginPageConfigurator.swift */,
+				8840E8B52BCC941100323663 /* LoginPageManager.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		8840E88C2BCA06AA00323663 /* LandingViewBooks */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8B92BCCFF9000323663 /* Cell */,
+				8840E8982BCC2FA300323663 /* Entities */,
+				8840E88D2BCA06D900323663 /* LandingBookViewController.swift */,
+				8840E88E2BCA06D900323663 /* landingBookViewController.xib */,
+				8840E8922BCC2F6E00323663 /* LandingBookPresenter.swift */,
+				8840E8942BCC2F8B00323663 /* LandingBookInteractor.swift */,
+				8840E8962BCC2F9600323663 /* LandingBookRouter.swift */,
+				8840E8B72BCCBDFD00323663 /* LandingBookConfiguration.swift */,
+				8840E8BE2BCD022B00323663 /* LandingBookManager.swift */,
+			);
+			path = LandingViewBooks;
+			sourceTree = "<group>";
+		};
+		8840E8912BCC2CBD00323663 /* DetailBook */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8A42BCC56D200323663 /* DetailBookViewController.swift */,
+				8840E8A52BCC56D200323663 /* DetailBookViewController.xib */,
+				8840E8A82BCC56E300323663 /* DetailBookInteractor.swift */,
+				8840E8AA2BCC56F100323663 /* DetailBookPresenter.swift */,
+				8840E8AC2BCC570100323663 /* DetailBookRouter.swift */,
+				8840E8C02BCD064E00323663 /* DetailBookConfiguration.swift */,
+				8840E8C22BCD069A00323663 /* DetailBookManager.swift */,
+			);
+			path = DetailBook;
+			sourceTree = "<group>";
+		};
+		8840E8982BCC2FA300323663 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8992BCC332300323663 /* Bookentity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8840E89B2BCC503900323663 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8840E89C2BCC505700323663 /* UserEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8840E8AE2BCC571E00323663 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8C42BCD74F200323663 /* TokenCreator */,
+				8840E8AF2BCC573600323663 /* APIClient.swift */,
+				8840E8B12BCC574B00323663 /* KeyChainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8840E8B92BCCFF9000323663 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8BA2BCCFFC600323663 /* ListBooksTableViewCell.swift */,
+				8840E8BB2BCCFFC600323663 /* ListBooksTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8840E8C42BCD74F200323663 /* TokenCreator */ = {
+			isa = PBXGroup;
+			children = (
+				8840E8C52BCD750200323663 /* TokenCreator.swift */,
+				8840E8C72BCD752500323663 /* TokenDelete.swift */,
+				8840E8C92BCD753E00323663 /* TokenReader.swift */,
+				8840E8CB2BCD756200323663 /* TokenUpdater.swift */,
+			);
+			path = TokenCreator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8840E8532BC9E3A900323663 /* loginTimeTonicInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E87E2BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterview" */;
+			buildPhases = (
+				8840E8502BC9E3A900323663 /* Sources */,
+				8840E8512BC9E3A900323663 /* Frameworks */,
+				8840E8522BC9E3A900323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loginTimeTonicInterview;
+			productName = loginTimeTonicInterview;
+			productReference = 8840E8542BC9E3A900323663 /* loginTimeTonicInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8840E8692BC9E3AB00323663 /* loginTimeTonicInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E8812BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterviewTests" */;
+			buildPhases = (
+				8840E8662BC9E3AB00323663 /* Sources */,
+				8840E8672BC9E3AB00323663 /* Frameworks */,
+				8840E8682BC9E3AB00323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8840E86C2BC9E3AB00323663 /* PBXTargetDependency */,
+			);
+			name = loginTimeTonicInterviewTests;
+			productName = loginTimeTonicInterviewTests;
+			productReference = 8840E86A2BC9E3AB00323663 /* loginTimeTonicInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8840E8732BC9E3AB00323663 /* loginTimeTonicInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E8842BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterviewUITests" */;
+			buildPhases = (
+				8840E8702BC9E3AB00323663 /* Sources */,
+				8840E8712BC9E3AB00323663 /* Frameworks */,
+				8840E8722BC9E3AB00323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8840E8762BC9E3AB00323663 /* PBXTargetDependency */,
+			);
+			name = loginTimeTonicInterviewUITests;
+			productName = loginTimeTonicInterviewUITests;
+			productReference = 8840E8742BC9E3AB00323663 /* loginTimeTonicInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8840E84C2BC9E3A900323663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8840E8532BC9E3A900323663 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8840E8692BC9E3AB00323663 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8840E8532BC9E3A900323663;
+					};
+					8840E8732BC9E3AB00323663 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8840E8532BC9E3A900323663;
+					};
+				};
+			};
+			buildConfigurationList = 8840E84F2BC9E3A900323663 /* Build configuration list for PBXProject "loginTimeTonicInterview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8840E84B2BC9E3A900323663;
+			productRefGroup = 8840E8552BC9E3A900323663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8840E8532BC9E3A900323663 /* loginTimeTonicInterview */,
+				8840E8692BC9E3AB00323663 /* loginTimeTonicInterviewTests */,
+				8840E8732BC9E3AB00323663 /* loginTimeTonicInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8840E8522BC9E3A900323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E8A72BCC56D200323663 /* DetailBookViewController.xib in Resources */,
+				8840E8642BC9E3AB00323663 /* LaunchScreen.storyboard in Resources */,
+				8840E88B2BC9E91D00323663 /* LoginPageViewController.xib in Resources */,
+				8840E8612BC9E3AB00323663 /* Assets.xcassets in Resources */,
+				8840E8BD2BCCFFC600323663 /* ListBooksTableViewCell.xib in Resources */,
+				8840E8902BCA06D900323663 /* landingBookViewController.xib in Resources */,
+				8840E85F2BC9E3A900323663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8682BC9E3AB00323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8722BC9E3AB00323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8840E8502BC9E3A900323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E8A92BCC56E300323663 /* DetailBookInteractor.swift in Sources */,
+				8840E8B42BCC903B00323663 /* LoginPageConfigurator.swift in Sources */,
+				8840E85C2BC9E3A900323663 /* ViewController.swift in Sources */,
+				8840E8AD2BCC570100323663 /* DetailBookRouter.swift in Sources */,
+				8840E8A12BCC565200323663 /* LoginPagePresenter.swift in Sources */,
+				8840E8C32BCD069A00323663 /* DetailBookManager.swift in Sources */,
+				8840E89F2BCC562500323663 /* LoginPageInteractor.swift in Sources */,
+				8840E88A2BC9E91D00323663 /* LoginPageViewController.swift in Sources */,
+				8840E8C82BCD752500323663 /* TokenDelete.swift in Sources */,
+				8840E8C12BCD064E00323663 /* DetailBookConfiguration.swift in Sources */,
+				8840E88F2BCA06D900323663 /* LandingBookViewController.swift in Sources */,
+				8840E8B22BCC574B00323663 /* KeyChainService.swift in Sources */,
+				8840E89D2BCC505700323663 /* UserEntity.swift in Sources */,
+				8840E8A32BCC567E00323663 /* LoginPageRouter.swift in Sources */,
+				8840E8972BCC2F9600323663 /* LandingBookRouter.swift in Sources */,
+				8840E8582BC9E3A900323663 /* AppDelegate.swift in Sources */,
+				8840E8CA2BCD753E00323663 /* TokenReader.swift in Sources */,
+				8840E8AB2BCC56F100323663 /* DetailBookPresenter.swift in Sources */,
+				8840E85A2BC9E3A900323663 /* SceneDelegate.swift in Sources */,
+				8840E8B62BCC941100323663 /* LoginPageManager.swift in Sources */,
+				8840E89A2BCC332300323663 /* Bookentity.swift in Sources */,
+				8840E8952BCC2F8B00323663 /* LandingBookInteractor.swift in Sources */,
+				8840E8A62BCC56D200323663 /* DetailBookViewController.swift in Sources */,
+				8840E8B82BCCBDFD00323663 /* LandingBookConfiguration.swift in Sources */,
+				8840E8932BCC2F6E00323663 /* LandingBookPresenter.swift in Sources */,
+				8840E8B02BCC573600323663 /* APIClient.swift in Sources */,
+				8840E8BF2BCD022B00323663 /* LandingBookManager.swift in Sources */,
+				8840E8BC2BCCFFC600323663 /* ListBooksTableViewCell.swift in Sources */,
+				8840E8C62BCD750200323663 /* TokenCreator.swift in Sources */,
+				8840E8CC2BCD756200323663 /* TokenUpdater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8662BC9E3AB00323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E86F2BC9E3AB00323663 /* loginTimeTonicInterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E8702BC9E3AB00323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E8792BC9E3AB00323663 /* loginTimeTonicInterviewUITests.swift in Sources */,
+				8840E87B2BC9E3AB00323663 /* loginTimeTonicInterviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8840E86C2BC9E3AB00323663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840E8532BC9E3A900323663 /* loginTimeTonicInterview */;
+			targetProxy = 8840E86B2BC9E3AB00323663 /* PBXContainerItemProxy */;
+		};
+		8840E8762BC9E3AB00323663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840E8532BC9E3A900323663 /* loginTimeTonicInterview */;
+			targetProxy = 8840E8752BC9E3AB00323663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8840E85D2BC9E3A900323663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8840E85E2BC9E3A900323663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8840E8622BC9E3AB00323663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8840E8632BC9E3AB00323663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8840E87C2BC9E3AB00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8840E87D2BC9E3AB00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8840E87F2BC9E3AB00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loginTimeTonicInterview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LoginPageViewController.xib;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8840E8802BC9E3AB00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loginTimeTonicInterview/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LoginPageViewController.xib;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8840E8822BC9E3AB00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loginTimeTonicInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loginTimeTonicInterview";
+			};
+			name = Debug;
+		};
+		8840E8832BC9E3AB00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loginTimeTonicInterview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loginTimeTonicInterview";
+			};
+			name = Release;
+		};
+		8840E8852BC9E3AB00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loginTimeTonicInterview;
+			};
+			name = Debug;
+		};
+		8840E8862BC9E3AB00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.loginTimeTonicInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loginTimeTonicInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8840E84F2BC9E3A900323663 /* Build configuration list for PBXProject "loginTimeTonicInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E87C2BC9E3AB00323663 /* Debug */,
+				8840E87D2BC9E3AB00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E87E2BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E87F2BC9E3AB00323663 /* Debug */,
+				8840E8802BC9E3AB00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E8812BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E8822BC9E3AB00323663 /* Debug */,
+				8840E8832BC9E3AB00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E8842BC9E3AB00323663 /* Build configuration list for PBXNativeTarget "loginTimeTonicInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E8852BC9E3AB00323663 /* Debug */,
+				8840E8862BC9E3AB00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8840E84C2BC9E3A900323663 /* Project object */;
+}

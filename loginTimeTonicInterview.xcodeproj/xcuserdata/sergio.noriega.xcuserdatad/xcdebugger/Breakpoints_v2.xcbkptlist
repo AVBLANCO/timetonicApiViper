@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "95D432DF-5032-47AD-9FDC-74EBF11BFDA8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1030B41E-7294-4DF1-9B10-5858C49AF45C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "createAppKey()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B322BEE4-D24E-4A16-934E-D439635C9FD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "createAppKey()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4016D185-3F9A-4667-A8DB-38EE242BDF83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "createAppKey()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0785AE31-9B7E-4C02-88CB-20F17E5BF60F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "createAppKey()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E2FF8BA-A9E4-43BE-A4B1-AAB6AFAA4A48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "createAppKey()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E2FF8BA-A9E4-43BE-A4B1-AAB6AFAA4A48 - 63281a7728bcac6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loginTimeTonicInterview.TimetonicAPIService.createAppKey() -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.AppkeyResponse, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+               <Location
+                  uuid = "9E2FF8BA-A9E4-43BE-A4B1-AAB6AFAA4A48 - c1f415233c1bd559"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Error) -&gt; loginTimeTonicInterview.NetworkError in loginTimeTonicInterview.TimetonicAPIService.createAppKey() -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.AppkeyResponse, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7125135-45F4-4C4D-95EA-665300D65568"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "createSesskey(o_u:oauthkey:restrictions:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7125135-45F4-4C4D-95EA-665300D65568 - 372b772af2ffe296"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loginTimeTonicInterview.TimetonicAPIService.createSesskey(o_u: Swift.String, oauthkey: Swift.String, restrictions: Swift.String) -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.SesskeyResponse, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "2268">
+               </Location>
+               <Location
+                  uuid = "B7125135-45F4-4C4D-95EA-665300D65568 - 4111c298dea2edcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Foundation.Data, __C.NSURLResponse) -&gt; Combine.AnyPublisher&lt;Foundation.Data, loginTimeTonicInterview.NetworkError&gt; in loginTimeTonicInterview.TimetonicAPIService.createSesskey(o_u: Swift.String, oauthkey: Swift.String, restrictions: Swift.String) -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.SesskeyResponse, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE7EB8A3-B630-40E1-980B-51E106C36C77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getAllBooks()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE7EB8A3-B630-40E1-980B-51E106C36C77 - 84cfffff162a722d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loginTimeTonicInterview.TimetonicAPIService.getAllBooks() -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.BookModel.BookInfo, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "3772">
+               </Location>
+               <Location
+                  uuid = "BE7EB8A3-B630-40E1-980B-51E106C36C77 - af075250cafdb727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Foundation.Data, __C.NSURLResponse) -&gt; Combine.AnyPublisher&lt;Foundation.Data, loginTimeTonicInterview.NetworkError&gt; in loginTimeTonicInterview.TimetonicAPIService.getAllBooks() -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.BookModel.BookInfo, loginTimeTonicInterview.NetworkError&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A245611-5F19-426A-9A47-493F450E36DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "authenticate(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A245611-5F19-426A-9A47-493F450E36DE - b48e5b9b1d79f007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loginTimeTonicInterview.TimetonicAPIService.authenticate(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "8A245611-5F19-426A-9A47-493F450E36DE - 7a1e6a63acebdfca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (loginTimeTonicInterview.AppkeyResponse) -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.OauthkeyResponse, loginTimeTonicInterview.NetworkError&gt; in loginTimeTonicInterview.TimetonicAPIService.authenticate(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A885E99-0A32-4FBD-B226-F37761DFA873"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "authenticate(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A885E99-0A32-4FBD-B226-F37761DFA873 - b48e5b9b1d79f1a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loginTimeTonicInterview.TimetonicAPIService.authenticate(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "2A885E99-0A32-4FBD-B226-F37761DFA873 - 20aad6295d83886f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (loginTimeTonicInterview.OauthkeyResponse) -&gt; Combine.AnyPublisher&lt;loginTimeTonicInterview.SesskeyResponse, loginTimeTonicInterview.NetworkError&gt; in loginTimeTonicInterview.TimetonicAPIService.authenticate(email: Swift.String, password: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "loginTimeTonicInterview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergio.noriega/Desktop/Swift/loginTimeTonicInterview/loginTimeTonicInterview/Services/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5786E250-1D46-4446-8244-D60227E727B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "authenticate(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D2C4473-2EA3-4194-9C9C-9163B22E23BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "authenticate(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD1F4069-0902-4E71-A0D1-DC959F710F47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "authenticate(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98F4A3BE-F6BB-483D-9A0E-77BCBC7A64B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "createOauthKey(login:pwd:appkey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDB9A87E-3CB4-4E95-AB24-94D8455BF64C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loginTimeTonicInterview/Services/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "createOauthKey(login:pwd:appkey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
